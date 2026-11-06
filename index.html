@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist+Pixel&family=Geist:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button class="dark-mode-button" id="darkModeButton" onclick="toggleDarkMode()"><i class="iconoir-half-moon"></i></button>
+    <h1>Tantado</h1>
+    <div class="container">
+        <form action="">
+            <input type="text" id="todoInput" class="todo-input" placeholder="What needs to get done?">
+            <button class="add-button"><i class="iconoir-plus"></i></button>
+        </form>
+        <ul class="todo-list" id="todoList">
+            <li class="todo">
+                <input type="checkbox" id="todo-1" class="checkbox">
+
+                <label for="todo-1" class="checkbox-circle">
+                    <i class="iconoir-circle"></i>
+                    <i class="iconoir-check-circle-solid"></i>
+                </label>
+                
+                <label for="todo-1" class="todo-text">sadsadsadsadsadsadsample task</label>
+                <button class="delete-button" id="deleteButton"><i class="iconoir-trash"></i></button>
+            </li>
+            <li class="todo">
+                <input type="checkbox" id="todo-2" class="checkbox">
+
+                <label for="todo-2" class="checkbox-circle">
+                    <i class="iconoir-circle"></i>
+                    <i class="iconoir-check-circle-solid"></i>
+                </label>
+
+                <label for="todo-2" class="todo-text">sample task 2</label>
+                <button class="delete-button"><i class="iconoir-trash"></i></button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
